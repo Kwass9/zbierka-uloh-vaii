@@ -1,0 +1,33 @@
+#sky {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#first {
+    position: absolute;
+
+}
+
+#second {
+    position: absolute;
+
+}
+
+#third {
+    position: absolute;
+
+}
+
+#fourth {
+    position: absolute;
+
+}
