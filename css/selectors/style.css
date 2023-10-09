@@ -17,6 +17,6 @@
     background-color: lightgrey;
 }
 
-/*.data tr:hover td:first-child-not(:hover) {*/
-/*    color: rgb(128, 128, 128);*/
-/*}*/
+.data tr:hover td:first-child:not(:hover) {
+    color: rgb(128, 128, 128);
+}
