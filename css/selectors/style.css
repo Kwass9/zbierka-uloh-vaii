@@ -1,0 +1,22 @@
+.data tr th {
+    border: 1px solid #000;
+    background-color: green;
+    text-align: center;
+    font-weight: bold;
+}
+
+.data tr td {
+    border: 1px solid #000;
+}
+
+.data tr th::first-letter {
+    color: yellow;
+}
+
+.data tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+/*.data tr:hover td:first-child-not(:hover) {*/
+/*    color: rgb(128, 128, 128);*/
+/*}*/
