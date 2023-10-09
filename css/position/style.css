@@ -1,11 +1,22 @@
-#sky {
+body {
+    background-image: url("img/sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
-    position: absolute;
-    width: 100%;
     height: 100%;
 }
 
+/*#sky {*/
+/*    margin: 0;*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+
 #sun {
+    /*background-size: contain;*/
+    /*width: 256px;*/
+    /*height: 256px;*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -14,20 +25,24 @@
 
 #first {
     position: absolute;
-
+    transform: scaleX(-1);
+    top: 0;
 }
 
 #second {
     position: absolute;
-
+    bottom: 0;
+    right: 0;
 }
 
 #third {
     position: absolute;
-
+    transform: scaleX(-1);
+    left: 0;
+    bottom: 0;
 }
 
 #fourth {
     position: absolute;
-
+    right: 0;
 }
